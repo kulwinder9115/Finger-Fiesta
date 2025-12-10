@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Finger Fiesta Webcam Game</title>
+
+  <link rel="stylesheet" href="style.css" />
+
+  <!-- TensorFlow Handpose -->
+  <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs@3.21.0/dist/tf.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@tensorflow-models/handpose"></script>
+</head>
+<body>
+  <h1>Finger Fiesta | Webcam Controlled Game</h1>
+
+  <div id="game-container">
+    <canvas id="game-canvas"></canvas>
+    <div id="overlay">
+      <div id="start-screen">
+        <h2>Move your hand to catch the falling balls!</h2>
+        <button id="start-button">Start Game</button>
+      </div>
+      <div id="game-over-screen" class="hidden">
+        <h2>Game Over!</h2>
+        <p>Score: <span id="final-score">0</span></p>
+        <button id="restart-button">Restart</button>
+      </div>
+    </div>
+  </div>
+
+  <div id="score-container">
+    Score: <span id="score">0</span>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
