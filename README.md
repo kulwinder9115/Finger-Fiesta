@@ -28,7 +28,7 @@ Instead of relying on keyboard or mouse inputs, players use their fingers and ha
 - Enjoy the fiesta of finger-powered fun!
 --- 
 📚 Learning Outcomes
-This project demonstrates:
+This project demonstrates :
 - Practical use of TensorFlow.js for real-time gesture recognition.
 - Integration of machine learning models into web applications.
 - Creative application of web technologies (HTML, CSS, JS) in game development.
